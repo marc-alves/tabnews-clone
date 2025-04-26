@@ -1,0 +1,11 @@
+{
+  "name": "tabnews-clone",
+  "version": "1.0.0",
+  "description": "Recriação do projeto tabnews, por meio do curso.dev",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT"
+}
