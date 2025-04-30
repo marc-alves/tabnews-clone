@@ -54,7 +54,9 @@ function Home() {
         padding: '0 50px',
         position: 'relative'
       }}>
-        <button style={{ padding: '10px 20px', fontSize: '16px' }}>
+        <button 
+        onClick={() => alert("Parabéeens, você pode pagar o mais rápido possível!")}
+        style={{ padding: '10px 20px', fontSize: '16px' }}>
           Siim! ❤️
         </button>
         <button
