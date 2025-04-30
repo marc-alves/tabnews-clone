@@ -81,6 +81,7 @@ function Home() {
         </button>
 
         <button
+  
           id="botao-fugitivo"
           style={{
             padding: '12px 24px',
@@ -97,7 +98,8 @@ function Home() {
           }}
           onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
           onMouseOut={(e) => e.target.style.transform = 'scale(1)'}>
-          Não 🙁
+           Talvez.. 🤔
+
         </button>
       </div>
     </div>
