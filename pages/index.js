@@ -45,7 +45,7 @@ function Home() {
       height: '100vh',
       fontFamily: 'Arial, sans-serif'
     }}>
-      <h1 style={{ marginBottom: '40px' }}>Qual botão você consegue clicar?</h1>
+      <h1 style={{ marginBottom: '40px' }}>Oi! Querida Laura, você me deve duas massagens(por dia) e 100 beijos??</h1>
 
       <div style={{
         width: '100%',
@@ -55,7 +55,7 @@ function Home() {
         position: 'relative'
       }}>
         <button style={{ padding: '10px 20px', fontSize: '16px' }}>
-          Botão Normal
+          Siim! ❤️
         </button>
         <button
           id="botao-fugitivo"
@@ -66,7 +66,7 @@ function Home() {
             cursor: 'pointer'
           }}
         >
-          Clique aqui se conseguir!
+          Não 🙁
         </button>
       </div>
     </div>
