@@ -44,7 +44,6 @@ function Home() {
       justifyContent: 'center',
       height: '100vh',
       fontFamily: 'Arial, sans-serif',
-      backgroundColor: '#f0f0f0', // Fundo mais suave
       margin: 0,
     }}>
       <h1 style={{
@@ -90,7 +89,7 @@ function Home() {
             borderRadius: '8px',
             border: 'none',
             cursor: 'pointer',
-            background: 'linear-gradient(45deg, #5f5fff, #8a2be2)',
+           background: 'linear-gradient(45deg, #32CD32, #228B22)',
             color: 'white',
             position: 'absolute',
             left: 'calc(100% - 180px)', // Ajuste para o botão começar à direita
