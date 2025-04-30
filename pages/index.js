@@ -43,32 +43,61 @@ function Home() {
       alignItems: 'center',
       justifyContent: 'center',
       height: '100vh',
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Arial, sans-serif',
+      backgroundColor: '#f0f0f0', // Fundo mais suave
+      margin: 0,
     }}>
-      <h1 style={{ marginBottom: '40px' }}>Oi! Querida Laura, você me deve duas massagens(por dia) e 100 beijos??</h1>
+      <h1 style={{
+        marginBottom: '40px',
+        color: '#333',
+        fontSize: '24px',
+        textAlign: 'center',
+      }}>
+        Oi! Querida Laura, você me deve duas massagens(por dia) e 100 beijos??
+      </h1>
 
       <div style={{
         width: '100%',
         display: 'flex',
         justifyContent: 'space-between',
         padding: '0 50px',
-        position: 'relative'
+        position: 'relative',
       }}>
-        <button 
-        onClick={() => alert("Parabéeens gatinha❤️, você pode pagar o mais rápido possível!")}
-        style={{ padding: '10px 20px', fontSize: '16px' }}>
+        <button
+          onClick={() => alert("Parabéeens gatinha❤️, você pode pagar o mais rápido possível!")}
+          style={{
+            padding: '12px 24px',
+            fontSize: '18px',
+            fontWeight: 'bold',
+            borderRadius: '8px',
+            border: 'none',
+            cursor: 'pointer',
+            background: 'linear-gradient(45deg, #ff8a00, #e52e71)',
+            color: 'white',
+            transition: 'all 0.3s ease',
+          }}
+          onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
+          onMouseOut={(e) => e.target.style.transform = 'scale(1)'}>
           Siim! ❤️
         </button>
+
         <button
           id="botao-fugitivo"
           style={{
-            padding: '10px 20px',
-            fontSize: '16px',
-            position: 'absolute',
+            padding: '12px 24px',
+            fontSize: '18px',
+            fontWeight: 'bold',
+            borderRadius: '8px',
+            border: 'none',
             cursor: 'pointer',
-            left: 'calc(100% - 180px)', // Ajuste para ficar à direita
+            background: 'linear-gradient(45deg, #5f5fff, #8a2be2)',
+            color: 'white',
+            position: 'absolute',
+            left: 'calc(100% - 180px)', // Ajuste para o botão começar à direita
+            transition: 'all 0.3s ease',
           }}
-        >
+          onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
+          onMouseOut={(e) => e.target.style.transform = 'scale(1)'}>
           Não 🙁
         </button>
       </div>
