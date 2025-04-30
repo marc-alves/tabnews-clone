@@ -71,7 +71,7 @@ function Home() {
             borderRadius: '8px',
             border: 'none',
             cursor: 'pointer',
-            background: 'linear-gradient(45deg, #ff8a00, #e52e71)',
+            background: 'linear-gradient(45deg, #32CD32, #228B22)',
             color: 'white',
             transition: 'all 0.3s ease',
           }}
@@ -89,7 +89,7 @@ function Home() {
             borderRadius: '8px',
             border: 'none',
             cursor: 'pointer',
-           background: 'linear-gradient(45deg, #32CD32, #228B22)',
+            background: 'linear-gradient(45deg, #5f5fff, #8a2be2)',
             color: 'white',
             position: 'absolute',
             left: 'calc(100% - 180px)', // Ajuste para o botão começar à direita
