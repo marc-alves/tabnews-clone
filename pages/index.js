@@ -63,9 +63,9 @@ function Home() {
           id="botao-fugitivo"
           style={{
             padding: '10px 20px',
-            fontSize: '16px',git poush
+            fontSize: '16px',
             position: 'absolute',
-            cursor: 'pointer'
+            cursor: 'pointer',
             left: 'calc(100% - 180px)', // Ajuste para ficar à direita
           }}
         >
