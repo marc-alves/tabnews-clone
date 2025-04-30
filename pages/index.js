@@ -15,8 +15,8 @@ function Home() {
       const distancia = Math.hypot(botaoX - mouseX, botaoY - mouseY);
 
       if (distancia < 100) {
-        const offsetX = (botaoX - mouseX) * 1.5;
-        const offsetY = (botaoY - mouseY) * 1.5;
+        const offsetX = (botaoX - mouseX) * 2;
+        const offsetY = (botaoY - mouseY) * 4.1;
 
         let novoX = botao.offsetLeft + offsetX;
         let novoY = botao.offsetTop + offsetY;
