@@ -55,7 +55,7 @@ function Home() {
         position: 'relative'
       }}>
         <button 
-        onClick={() => alert("Parabéeens, você pode pagar o mais rápido possível!")}
+        onClick={() => alert("Parabéeens gatinha❤️, você pode pagar o mais rápido possível!")}
         style={{ padding: '10px 20px', fontSize: '16px' }}>
           Siim! ❤️
         </button>
@@ -63,9 +63,10 @@ function Home() {
           id="botao-fugitivo"
           style={{
             padding: '10px 20px',
-            fontSize: '16px',
+            fontSize: '16px',git poush
             position: 'absolute',
             cursor: 'pointer'
+            left: 'calc(100% - 180px)', // Ajuste para ficar à direita
           }}
         >
           Não 🙁
