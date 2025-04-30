@@ -63,7 +63,7 @@ function Home() {
         position: 'relative',
       }}>
         <button
-          onClick={() => alert("Parabéeens gatinha❤️, você pode pagar o mais rápido possível!")}
+          onClick={() => alert("Parabéeens gatinha❤️,OPÇÃO CORRETA, você pode pagar o mais rápido possível!")}
           style={{
             padding: '12px 24px',
             fontSize: '18px',
