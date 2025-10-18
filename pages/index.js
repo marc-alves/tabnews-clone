@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 function Home() {
   useEffect(() => {
@@ -37,73 +37,89 @@ function Home() {
   }, []);
 
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      height: '100vh',
-      fontFamily: 'Arial, sans-serif',
-      margin: 0,
-    }}>
-      <h1 style={{
-        marginBottom: '40px',
-        color: '#333',
-        fontSize: '24px',
-        textAlign: 'center',
-      }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+        fontFamily: "Arial, sans-serif",
+        margin: 0,
+      }}
+    >
+      <h1
+        style={{
+          marginBottom: "40px",
+          color: "#333",
+          fontSize: "24px",
+          textAlign: "center",
+        }}
+      >
         Oi! Querida Laura, você me deve duas massagens(por dia) e 100 beijos??
       </h1>
 
-      <div style={{
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'space-between',
-        padding: '0 50px',
-        position: 'relative',
-      }}>
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "space-between",
+          padding: "0 50px",
+          position: "relative",
+        }}
+      >
         <button
-          onClick={() => alert("Parabéeens gatinha❤️,OPÇÃO CORRETA, você pode pagar o mais rápido possível!")}
+          onClick={() =>
+            alert(
+              "Parabéeens gatinha❤️,OPÇÃO CORRETA, você pode pagar o mais rápido possível!",
+            )
+          }
           style={{
-            padding: '12px 24px',
-            fontSize: '18px',
-            fontWeight: 'bold',
-            borderRadius: '8px',
-            border: 'none',
-            cursor: 'pointer',
-            background: 'linear-gradient(45deg, #32CD32, #228B22)',
-            color: 'white',
-            transition: 'all 0.3s ease',
+            padding: "12px 24px",
+            fontSize: "18px",
+            fontWeight: "bold",
+            borderRadius: "8px",
+            border: "none",
+            cursor: "pointer",
+            background: "linear-gradient(45deg, #32CD32, #228B22)",
+            color: "white",
+            transition: "all 0.3s ease",
           }}
-          onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
-          onMouseOut={(e) => e.target.style.transform = 'scale(1)'}>
+          onMouseOver={(e) => (e.target.style.transform = "scale(1.1)")}
+          onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+        >
           Siim! ❤️
         </button>
 
         <button
-  
           id="botao-fugitivo"
           style={{
-            padding: '12px 24px',
-            fontSize: '18px',
-            fontWeight: 'bold',
-            borderRadius: '8px',
-            border: 'none',
-            cursor: 'pointer',
-            background: 'linear-gradient(45deg, #5f5fff, #8a2be2)',
-            color: 'white',
-            position: 'absolute',
-            left: 'calc(100% - 180px)', // Ajuste para o botão começar à direita
-            transition: 'all 0.3s ease',
+            padding: "12px 24px",
+            fontSize: "18px",
+            fontWeight: "bold",
+            borderRadius: "8px",
+            border: "none",
+            cursor: "pointer",
+            background: "linear-gradient(45deg, #5f5fff, #8a2be2)",
+            color: "white",
+            position: "absolute",
+            left: "calc(100% - 180px)", // Ajuste para o botão começar à direita
+            transition: "all 0.3s ease",
           }}
-          onMouseOver={(e) => e.target.style.transform = 'scale(1.1)'}
-          onMouseOut={(e) => e.target.style.transform = 'scale(1)'}>
-           Talvez.. 🤔
-
+          onMouseOver={(e) => (e.target.style.transform = "scale(1.1)")}
+          onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+        >
+          Talvez.. 🤔
         </button>
       </div>
     </div>
   );
 }
 
+function teste() {
+  console.log("Teste teste");
+}
+function teste2() {
+  console.log("teste 2");
+}
 export default Home;
